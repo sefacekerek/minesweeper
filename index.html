@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head id="header">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>minesweeper</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css'>
+
+</head>
+
+<body>
+    <center>
+
+        <p id="alert" class="alert">Please click any bomb to keep play...</p>
+        <div id="bombCount"></div>
+        <div id="dene" class="deneme">
+        </div>
+        <div id="out" class="outside">
+            <h2>Select Game Level</h2>
+            <div class="levelButtons">
+                <button class="levBtn" id="levBtn1">Easy</button>
+                <button class="levBtn" id="levBtn2">Medium</button>
+                <button class="levBtn" id="levBtn3">Hard</button>
+            </div>
+            <button class="levBtn" id="levBtn4">Masterpiece</button>
+        </div>
+    </center>
+
+    <div id="popUp" class="window">
+        <div class="window-content">
+            <center>
+                <div class="window-head">
+                    <span id="close" class="close">x</span>
+                    <div class="game-over">
+                        <h2>GAME OVER</h2>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <center>
+                        <button id="replayButton" class="endButton">Replay</button>
+                    </center>
+                    <center>
+                        <button id="checkButton" class="endButton">Check</button>
+
+                    </center>
+
+                </div>
+
+            </center>
+        </div>
+    </div>
+    <div id="popUp2" class="window2">
+        <div class="window-content2">
+            <center>
+                <div class="window-head2">
+                    <span id="close2" class="close2">x</span>
+                    <div class="game-over2">
+                        <h3>CONGRATULATIONS</h3>
+                        <h4>Burayı yalnızca gerçek Spartalılar görebilir...</h4>
+                    </div>
+                </div>
+
+                <div class="buttons2">
+                    <center>
+                        <button id="replayButton2" class="endButton2">Replay</button>
+                    </center>
+
+                </div>
+
+            </center>
+        </div>
+    </div>
+
+    <div id="redd"></div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
